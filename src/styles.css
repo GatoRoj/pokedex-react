@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lato";
+  margin: 0;
+}
+
+.App {
+  width: 70vw;
+}
+
+.expand {
+  grid-column: span 2;
+  grid-row: span 2;
+  transition: 300ms;
+}
+
+.none {
+  display: none !important;
+}
+
+.stat {
+  margin: 0;
+  color: #000000c9;
+  font-size: 16px;
+}
+
+.buscador {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 2px solid #00000059;
+}
+
+.buscador input {
+  margin: 2em;
+  margin-right: 2em;
+  height: 40px;
+  font-size: 15px;
+  width: 40%;
+  outline: none;
+  border: 1px solid #e9e9ed;
+  padding: 0.4rem;
+  border-radius: 0.3em;
+}
+
+.buscador h2 {
+  margin: 1em;
+
+  border-radius: 10px;
+  color: white;
+  font-size: 34px;
+}
